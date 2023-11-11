@@ -93,6 +93,13 @@ const Contact = () => {
             .contact-container :global(a:hover) {
               color: #2e5aff;
             }
+
+            @media screen and (max-width: 852px) {
+              .contact-container {
+                display: block;
+                padding: 0 30px;
+              }
+            }
           `}
         </style>
       </div>

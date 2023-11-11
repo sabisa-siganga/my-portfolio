@@ -26,17 +26,19 @@ const About = () => {
     // Displaying the about information
     <div id="about" className="about-container">
       <div className="pic-container">
-        <Image
-          className="photo"
-          src={Photo}
-          alt="about-photo"
-          width={300}
-          height={300}
-          priority
-          style={{
-            borderRadius: "50%",
-          }}
-        />
+        <div className="photo-cont">
+          <Image
+            className="photo"
+            src={Photo}
+            alt="about-photo"
+            width={300}
+            height={300}
+            priority
+            style={{
+              borderRadius: "50%",
+            }}
+          />
+        </div>
         <div className="background">
           <h1>About</h1>
           <p>
@@ -122,7 +124,7 @@ const About = () => {
             padding: 30px 30px;
           }
           .about-details {
-            padding: 50px 0;
+            padding: 30px 0;
             max-width: 705px;
             margin: 0 auto;
           }
@@ -164,6 +166,28 @@ const About = () => {
             justify-content: center;
             align-items: center;
             padding: 2px 15px;
+          }
+          @media screen and (max-width: 705px) {
+            .pic-container {
+              display: block;
+              padding: 10px 30px;
+            }
+            .photo-cont {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 70px;
+            }
+            .background {
+              display: block;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 0;
+            }
+            .about-details {
+              text-align: center;
+              padding: 40px;
+            }
           }
         `}
       </style>

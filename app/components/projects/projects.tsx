@@ -62,7 +62,7 @@ const Projects = () => {
     {
       name: "Hangman Game App",
       description:
-        "Embark on a challenging and entertaining linguistic journey with the Hangman Game App, meticulously crafted to deliver a delightful user experience. This React-based application combines the power of React, React-Bootstrap, and Sass to create an interactive and visually appealing game of words.",
+        "Developed the hangman game which allow the users to embark on a challenging and entertaining guessing of various words with the Hangman Game App, meticulously crafted to deliver a delightful user experience. This React-based application combines the power of React, React-Bootstrap, and Sass to create an interactive and visually appealing game of words.",
       key_features:
         "Responsive User Interface, Interactive Gameplay, Custom Styling with Sass, React-Bootstrap",
       technologies: "React, React-Bootstrap, Sass",
