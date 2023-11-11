@@ -1,4 +1,6 @@
 import React from "react";
+
+// importing icons rom react icons
 import { FaSquarePhone } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -9,7 +11,7 @@ import Link from "next/link";
 // Contact page displaying the contact details
 const Contact = () => {
   return (
-    <div className="contact-details">
+    <div id="contact" className="contact-details">
       <h1
         className="title"
         // title style
