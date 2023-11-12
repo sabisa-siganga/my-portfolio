@@ -78,6 +78,7 @@ const Contact = () => {
               justify-content: space-between;
               max-width: 846px;
               margin: 0 auto;
+              padding-bottom: 40px;
             }
 
             p {

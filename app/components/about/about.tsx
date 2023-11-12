@@ -116,6 +116,7 @@ const About = () => {
             box-shadow: 1px 1px 37px 1px #ddd;
             border-radius: 5px;
             margin-bottom: 70px;
+            margin-top: 130px;
           }
           .pic-container {
             display: flex;
