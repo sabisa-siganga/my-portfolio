@@ -98,7 +98,7 @@ const Contact = () => {
             @media screen and (max-width: 852px) {
               .contact-container {
                 display: block;
-                padding: 0 30px;
+                padding: 20px 30px;
               }
             }
           `}
