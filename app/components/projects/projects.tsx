@@ -90,6 +90,7 @@ const Projects = () => {
 
       {/* styling the projects page */}
       <style jsx>{`
+        // styling the projects container
         .projects-container {
           display: flex;
           flex-wrap: wrap;
@@ -99,6 +100,7 @@ const Projects = () => {
           margin-bottom: 82px;
         }
 
+        // styling the projects container
         h2 {
           font-size: 30px;
           color: #000;

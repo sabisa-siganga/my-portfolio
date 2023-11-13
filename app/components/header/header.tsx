@@ -1,10 +1,13 @@
 import Link from "next/link";
 import React from "react";
 
+// Displaying the header
 const Header = () => {
+  // rendering the nav bar with the links
   return (
     <div className="nav">
       <ul>
+        {/* Routes */}
         <li>
           <Link href="/" className="nav-link">
             Home
@@ -22,12 +25,15 @@ const Header = () => {
       </ul>
       <style jsx>
         {`
+        // styling the nav
           .nav {
             position: fixed;
     width: 100%;
     top: 0;
     left: 0;
           }
+
+          // styling the list
           ul {
             display: flex;
             background: #000;
@@ -41,6 +47,8 @@ const Header = () => {
             padding-left: 0;
            
           }
+
+          // styling the list item
           li{
             list-style
           }
@@ -54,12 +62,16 @@ const Header = () => {
           }
         `}
       </style>
+
+      {/* global style */}
       <style global jsx>
         {`
+          // styling the body
           body {
             margin: 0;
           }
 
+          // styling the link
           a {
             font-size: 16px;
             color: #fff;

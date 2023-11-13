@@ -109,6 +109,7 @@ const About = () => {
       {/* Styling the about page */}
       <style jsx>
         {`
+          // styling the about container
           .about-container {
             padding-top: 51px;
             max-width: 945px;
@@ -118,12 +119,16 @@ const About = () => {
             margin-bottom: 70px;
             margin-top: 130px;
           }
+
+          // styling the image container
           .pic-container {
             display: flex;
             justify-content: center;
             column-gap: 55px;
             padding: 30px 30px;
           }
+
+          // styling the about details class
           .about-details {
             padding: 30px 0;
             max-width: 705px;
@@ -134,6 +139,7 @@ const About = () => {
             margin-bottom: 45px;
           }
 
+          // styling the list
           .about-details ul {
             margin-top: 30px;
             padding-left: 0;
@@ -141,12 +147,18 @@ const About = () => {
 
           .background {
           }
+
+          // styling the title
           h1 {
             margin-top: 0;
           }
+
+          // styling the p tag
           p {
             letter-spacing: 0.3px;
           }
+
+          // styling the list
           ul {
             display: flex;
             flex-wrap: wrap;
@@ -154,6 +166,7 @@ const About = () => {
             row-gap: 15px;
           }
 
+          // styling the list item
           li {
             list-style: none;
             background: #000;
@@ -168,6 +181,8 @@ const About = () => {
             align-items: center;
             padding: 2px 15px;
           }
+
+          // creating the breakpoints
           @media screen and (max-width: 705px) {
             .pic-container {
               display: block;

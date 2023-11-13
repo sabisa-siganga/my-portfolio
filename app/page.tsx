@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+// creating a portfolio using Nextjs
+
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 import Projects from "./components/projects/projects";

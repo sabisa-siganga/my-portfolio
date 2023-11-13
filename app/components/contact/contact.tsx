@@ -68,10 +68,12 @@ const Contact = () => {
         {/* styling the contact page */}
         <style jsx>
           {`
+            // styling the contact detils
             .contact-details {
               padding-bottom: 50px;
             }
 
+            // styling the contact container
             .contact-container {
               padding-top: 51px;
               display: flex;
@@ -81,20 +83,25 @@ const Contact = () => {
               padding-bottom: 40px;
             }
 
+            // styling the p tags
             p {
               display: flex;
               column-gap: 10px;
               align-items: center;
             }
+
+            // styling the links
             .contact-container :global(a) {
               color: #000;
               cursor: pointer;
             }
 
+            // adding a hover effect on the link
             .contact-container :global(a:hover) {
               color: #2e5aff;
             }
 
+            // adding breaking point
             @media screen and (max-width: 852px) {
               .contact-container {
                 display: block;
